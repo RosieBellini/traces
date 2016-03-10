@@ -1,0 +1,150 @@
+<!--
+  ~ The MIT License (MIT)
+  ~ Copyright (c) 2016 Kyle Montague
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Traces</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="log">Log Event</string>
+    <string name="syncInfo">Tap together to synchronise</string>
+    <string name="syncText">Synchronise</string>
+    <string name="title_activity_sensor_status">Sensor Status</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="status_disabled">Sensors Disabled</string>
+    <string name="status_enabled">Sensors Running</string>
+    <string name="my_digital_name">My Digital</string>
+    <string name="PREF_USER_ID">TRACES_USER_ID</string>
+    <string name="PREF_HOME_ID">TRACES_HOME_ID</string>
+    <string name="title_activity_setup">Traces Setup</string>
+
+
+    <!-- Data Management Variables -->
+    <string name="text_check_data">Check Data</string>
+    <string name="text_check_connection">Check Connection</string>
+    <string name="text_send_data">Send Data</string>
+    <string name="text_remove_data">Delete Data</string>
+
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_tracing">Sensors</string>
+    <string name="tracing_summary_on">Logging Data</string>
+    <string name="tracing_summary_off">Disabled</string>
+    <string name="title_user_id">User ID</string>
+    <string name="PREF_SENSOR_STATUS">PREF_SENSOR_STATUS</string>
+    <string name="title_home_id">Care Home ID</string>
+    <string name="taces_face_name">Traces Status</string>
+    <string name="title_event_logger">Traces Event Logger</string>
+    <string name="PREF_EVENT_LOGGER">PREF_EVENT_LOGGER</string>
+    <string name="event_logger_summary">add time coded events</string>
+    <string name="title_logger">Event Logger</string>
+    <string name="EXTRA_CREATED_TIMESTAMP">created</string>
+    <string name="FILE_STUDY_DETAILS">Study_Details</string>
+    <string name="PREF_SAVE">PREF_SAVE</string>
+    <string name="title_save">Save Changes</string>
+    <string name="PREF_SENSOR_AMBIENT_NOISE">PREF_SENSOR_AMBIENT_NOISE</string>
+    <string name="PREF_SENSOR_TEMP">PREF_SENSOR_TEMP</string>
+    <string name="PREF_SENSOR_ACC">PREF_SENSOR_ACC</string>
+    <string name="PREF_SENSOR_GYRO">PREF_SENSOR_GYRO</string>
+    <string name="PREF_SENSOR_MAG">PREF_SENSOR_MAG</string>
+    <string name="PREF_SENSOR_BLE">PREF_SENSOR_BLE</string>
+    <string name="SENSOR_TITLE_AMBIENT_NOISE">Ambient Noise</string>
+    <string name="SENSOR_TITLE_TEMP">Temperature</string>
+    <string name="SENSOR_TITLE_ACC">Accelerometer</string>
+    <string name="SENSOR_TITLE_GYRO">Gyroscope</string>
+    <string name="SENSOR_TITLE_MAG">Magnetic Field</string>
+    <string name="SENSOR_TITLE_BLE">Bluetooth</string>
+    <string name="PREF_SENSOR_SETTINGS">PREF_SENSOR_SETTINGS</string>
+    <string name="title_sensor_settings">Sensor Settings</string>
+    <string name="sensor_settings_summary_on">Configure sensors</string>
+    <string name="text_info_ble_on">Ensure bluetooth is enabled on the mobile device</string>
+    <string name="text_info_sync_data">Ready to transmit data to the mobile device</string>
+    <string name="text_info_remove_data">IMPORTANT - this will remove all data</string>
+    <string name="text_info_check_again">Unable to find data, please check again or restart the device</string>
+    <string name="text_info_success">Sending data was successful.</string>
+    <string name="text_info_sending_failed">Sending data failed. Please try again.</string>
+    <string name="text_done">Done</string>
+    <string name="PREF_SEND">PREF_SEND_DATA</string>
+    <string name="PREF_REMOVE_DATA">PREF_REMOVE_DATA</string>
+    <string name="text_connected_mobile">Connected to mobile device.</string>
+    <string name="text_check_ble_again">Unable to connect to mobile, check bluetooth is enabled and try again.</string>
+    <string name="text_info_no_data">No data found.</string>
+    <string name="text_info_sending_data">Sending data, please wait (this may take a few minutes)</string>
+    <string name="text_info_zipping_data">Preparing data to be sent. (this may take a few minutes)</string>
+    <string name="text_info_deleting_data">Deleting log files, please wait</string>
+    <string name="text_info_success_delete">All log files have successfully been deleted.</string>
+    <string name="text_try_again">Try Again</string>
+    <string name="summary_remove_logs">Remove all log files</string>
+    <string name="summary_transfer_mobile">Transfer to mobile device</string>
+    <string name="text_yes_delete">Yes, Delete.</string>
+    <string name="text_info_confirm_delete">Please confirm you want to DELETE all logs.</string>
+    <string name="text_info_calibration">Please swing the watch in a figure of eight to calibrate (this may take a minute)</string>
+    <string name="text_info_calibration_complete">Calibration complete.</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~ Copyright (c) 2016 Kyle Montague
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  ~
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+
+    <SwitchPreference
+        android:key="@string/PREF_SAVE"
+        android:title="@string/title_save"
+        android:summaryOn=" "
+        android:summaryOff=" "
+        app:wear_iconOn="@drawable/ic_save_24dp"
+        app:wear_iconOff="@drawable/ic_save_24dp"
+        android:defaultValue="true"
+        />
+
+    <SwitchPreference
+        android:key="@string/PREF_SENSOR_STATUS"
+        android:title="@string/title_tracing"
+        android:summaryOn="@string/tracing_summary_on"
+        android:summaryOff="@string/tracing_summary_off"
+        app:wear_iconOn="@drawable/ic_location_on_24dp"
+        app:wear_iconOff="@drawable/ic_location_off_24dp"
+        android:defaultValue="false"
+        />
+
+    <SwitchPreference
+        android:key="@string/PREF_SENSOR_SETTINGS"
+        android:title="@string/title_sensor_settings"
+        android:summaryOn="@string/sensor_settings_summary_on"
+        android:summaryOff="@string/sensor_settings_summary_on"
+        app:wear_iconOn="@drawable/ic_settings_24dp"
+        app:wear_iconOff="@drawable/ic_settings_24dp"
+        android:defaultValue="false"
+        />
+    <SwitchPreference
+        android:key="@string/PREF_EVENT_LOGGER"
+        android:title="@string/title_logger"
+        android:summaryOn="Launch"
+        android:summaryOff="Launch"
+        app:wear_iconOn="@drawable/ic_create_24dp"
+        app:wear_iconOff="@drawable/ic_create_24dp"
+        android:defaultValue="true"
+        />
+
+
+    <ListPreference
+        android:key="@string/PREF_USER_ID"
+        android:title="@string/title_user_id"
+        android:icon="@drawable/ic_user_24dp"
+        android:entries="@array/entries_ids"
+        android:entryValues="@array/entries_ids"
+        android:defaultValue="Not Set"
+        />
+    <ListPreference
+        android:key="@string/PREF_HOME_ID"
+        android:title="@string/title_home_id"
+        android:icon="@drawable/ic_location_city_24dp"
+        android:entries="@array/entries_ids"
+        android:entryValues="@array/entries_ids"
+        android:defaultValue="Not Set"
+        />
+
+    <SwitchPreference
+        android:key="@string/PREF_SEND"
+        android:title="@string/text_send_data"
+        android:summaryOn="@string/summary_transfer_mobile"
+        android:summaryOff="@string/summary_transfer_mobile"
+        app:wear_iconOn="@drawable/ic_send_24dp"
+        app:wear_iconOff="@drawable/ic_send_24dp"
+        android:defaultValue="true"
+        />
+
+    <SwitchPreference
+        android:key="@string/PREF_REMOVE_DATA"
+        android:title="@string/text_remove_data"
+        android:summaryOn="@string/summary_remove_logs"
+        android:summaryOff="@string/summary_remove_logs"
+        app:wear_iconOn="@drawable/ic_delete_24dp"
+        app:wear_iconOff="@drawable/ic_delete_24dp"
+        android:defaultValue="true"
+        />
+
+
+
+
+    <!--<Preference-->
+        <!--android:key="PREF_TIMESTAMP_SYNC"-->
+        <!--android:title="Event Logger"-->
+        <!--android:icon="@drawable/ic_create_24dp"-->
+        <!--/>-->
+</PreferenceScreen>
